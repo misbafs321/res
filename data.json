@@ -1,0 +1,35 @@
+{
+  "basics":{
+    "photo":"mis.jpg",
+    "name":"syeda misba fathima",
+    "email":"fathimasyedamisba@gmail.com",
+    "phone":"9059393881",
+    "address":"kodumur"
+  },
+"education":[
+  {
+"course":"b.tech(cse)",
+"college":[
+  "recw",
+  "2015-2019",
+  "60%"
+]
+},
+{
+"course":"inter(mpc)",
+"college":[
+"sri chaitanya",
+"2013-2015",
+"88%"
+]
+},
+{
+"course":"ssc",
+"college":[
+"bhashyam",
+"2013",
+"83%"
+]
+}
+]
+}
