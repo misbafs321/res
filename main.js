@@ -42,13 +42,13 @@ name.textContent=leftside.name;
 left.appendChild(name);
 var email=document.createElement("h2");
 email.textContent=leftside.email;
-name.appendChild(email);
+left.appendChild(email);
 var ph=document.createElement("p");
 ph.textContent=leftside.phone;
-email.appendChild(ph);
+left.appendChild(ph);
 var address=document.createElement("h3");
 address.textContent=leftside.address;
-ph.appendChild(address);
+left.appendChild(address);
 console.log(left);
 }
 var right=document.createElement("div");

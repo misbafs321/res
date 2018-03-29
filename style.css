@@ -25,6 +25,9 @@
   border-radius: 50px;
   border:5px solid#c454;
 }
+img{
+  width:50px;
+}
 /* media queries(1024,1280,768,480)
  1280-1024:desctop
 1024-768:Tablet(landscape)
