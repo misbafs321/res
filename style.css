@@ -1,109 +1,119 @@
-table,tr,td{
-  border: 2px solid #000;
+table,td,tr{
+  border:2px solid #000;
   border-collapse: collapse;
   margin: 3px;
-  }
-  .main{
-  width: 100%;
+}
+/* #table{
+  border:2px solid #000;
+}
+tr,td{
+border:2px solid #000;
+} */
+.main{
+  width:100%;
   background-color: #999;
   /* flex box syntax */
   display: flex;
+  /* flex-direction: row; */
   flex-wrap: wrap;
 }
 .left{
-
-  background-color: #98FB98;
+text-align: justify;
+  background-color: #98fb98;
   border: 5px solid #000;
-  margin: 5px;
+  margin:5px;
   flex:1;
-  padding: 4px;
+  padding:30px;
   /* background-image: url(); */
 }
 .right{
-padding: 3px;
 text-align: justify;
-background-color: #F5FFFA ;
-
+  background-color: #f5fffa;
   border: 5px solid #000;
   margin:5px;
+  padding: 6px;
   flex:2;
-
 }
 #name{
-  color: green;
+  color:green;
 }
 .left img{
-  border-radius: 30px;
-  border:5px solid#c454;
+  border-radius: 50px;
+  border: 4px solid #666;
+  width:100px;
+  height:100px;
 }
-
 /* media queries(1024,1280,768,480)
- 1280-1024:desctop
-1024-768:Tablet(landscape)
+1280-1024:Desktop
+1024-768:Tablet(LandScape)
 768-480:Tablet
 480:mobile landscape (or) smaller device
-*/
-/* @media screen and (min-width:425px) */
-/* media queries */
-@media only screen and (min-width:1024px) and (max-width:1280px)
-{
+ */
+@media only screen and (min-width:1024px) and (max-width:1280px){
   .main{
-    display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+    display:flex;
+    flex-direction:row;
+    width:100%;
+
+  }
   .left{
 
     background-color: #999;
   }
-  .right{
+.right{
+
+  background-color: pink;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+  .main{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+
+  }
+  .left{
+
+    background-color: #AF7AC5;
+  }
+.right{
+
+  background-color: #95A5A6;
+}
+
+}
+@media only screen and (min-width:480px) and (max-width:768px){
+  .main{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+
+  }
+  .left{
+
+    background-color: #333;
+  }
+.right{
+
+  background-color: #48C9B0;
+}
+
+}
+@media only screen and  (max-width:480px){
+
+  .main{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+
+  }
+  .left{
 
     background-color: pink;
   }
-}
-@media only screen and (min-width:768px) and (max_width:1024px){
-  .main{
-    display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-  }
-  .left{
-
-    background-color:#AF7AC5;
-  }
   .right{
 
-    background-color: #95A5A6;
+  background-color: #95A5A6;
   }
+
 }
-@media only screen and (min-width:480px) and (max_width:768px){
-  .main{
-    display: flex;
-   flex-direction: column;
-
-   flex-wrap: wrap;
-  }
-  .left{
-
-    background-color:#333;
-  }
-  .right{
-
-    background-color: #48C9B0;
-  }
-}
- @media only screen and (max-width:480px){
-   .main{
-     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   }
-   .left{
-
-     background-color:pink;
-   }
-   .right{
-  text-align: justify;
-     background-color: #95A5A6  ;
-   }
- }
