@@ -3,33 +3,47 @@
     "photo":"index.jpg",
     "name":"syeda misba fathima",
     "email":"fathimasyedamisba@gmail.com",
-    "phone":"9059393881",
-    "address":"kodumur"
+    "phone":"9985412559",
+    "address":"kurnool"
   },
 "education":[
   {
-"course":"b.tech(cse)",
+"course":"B.tech(cse)",
 "college":[
-  "recw",
+  "RCEW",
   "2015-2019",
-  "60%"
+  "71%"
 ]
 },
 {
-"course":"inter(mpc)",
+"course":"Intermediate(Mpc)",
 "college":[
 "sri chaitanya",
 "2013-2015",
-"88%"
+"91%"
 ]
 },
 {
-"course":"ssc",
+"course":"SSC",
 "college":[
-"bhashyam",
+"Trinity eng medium high school",
 "2013",
-"83%"
+"87%"
 ]
 }
+],
+"skills":[
+  {
+    "name":"operating system",
+    "value":"windows,linux"
+  },
+  {
+    "name":"Programming languages",
+    "value":"c,c++,java"
+  },
+  {
+    "name":"web development",
+    "value":"HTML,PHP,.net"
+  }
 ]
 }

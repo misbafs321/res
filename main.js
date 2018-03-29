@@ -16,6 +16,7 @@ loadjson("data.json", function(text) {
   console.log(data);
   basics(data.basics);
   education(data.education);
+  skill(data.skills);
 })
 // for main div calling
 // var main=document.queryselector('.main');
@@ -76,4 +77,19 @@ for(j in Educa[i].college){
   console.log(edu);
 }
   }
+}
+function skill(skills){
+  var skill_title=document.createElement("div");
+  skill_title.classList.add("tech_skills");
+  skill_title.textContent="technical skills:";
+  skill_title.appendChild(document.createElement("HR"));
+  right.appendChild(skill_title);
+// creating a Table
+var table=document.createElement("table");
+var row="";
+for(var i = 0; i < skills.length; i++){
+  row =row+"<tr><td>"+skills[i].name+"</td><td>"+skills[i].value+"</td></tr>"
+}
+table.innerHTML=row;
+skill_title.appendChild(table);
 }
